@@ -15,7 +15,8 @@ settings.configure()
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://stackoverflow-app-o3bb7.ondigitalocean.app']
+ALLOWED_HOSTS = ['https://stackoverflow-app-o3bb7.ondigitalocean.app',
+                 "stackover.ondigitalocean.app"]
 
 STATICFILES_STORAGE = "django.contrib.staticfiles.storage.ManifestStaticFilesStorage"
 
