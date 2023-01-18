@@ -16,8 +16,10 @@ settings.configure()
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://stackoverflow---clone.herokuapp.com/', 'localhost',
-                 'http://127.0.0.1', 'stackoverflow---clone.herokuapp.com', '.herokuapp.com']
+ALLOWED_HOSTS = ['https://stackoverflow-app-o3bb7.ondigitalocean.app']
+
+STATICFILES_STORAGE = "django.contrib.staticfiles.storage.ManifestStaticFilesStorage"
+
 
 # Application definition
 
