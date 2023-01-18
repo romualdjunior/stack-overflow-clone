@@ -10,10 +10,6 @@ I just wanted to notice and show developers how StackOver-Flow works
 
 <img src="/images/animation.gif">
 
-## Demo
-
-Here is a working live demo : <a href="https://stonkoverflow.herokuapp.com/">Demo</a> <b>(Removed from heroku because usage of so's production LOGO</b> But I will be back with my own better design than them)</b>
-
 ## Technology Stack
 
 - [Python 3.7.x](https://www.python.org/)
@@ -99,10 +95,6 @@ $ python manage.py runserver
 ## Deployment
 
 The following details and steps on how to deploy this application
-
-#### Heroku
-
-See detailed [Deploying django app on Heroku](https://devcenter.heroku.com/articles/django-app-configuration)
 
 ## Contributing
 
