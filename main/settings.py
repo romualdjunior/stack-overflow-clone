@@ -17,7 +17,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['https://stackoverflow-app-o3bb7.ondigitalocean.app']
 
-# STATICFILES_STORAGE = "django.contrib.staticfiles.storage.ManifestStaticFilesStorage"
+STATICFILES_STORAGE = "django.contrib.staticfiles.storage.ManifestStaticFilesStorage"
 
 
 # Application definition
@@ -66,7 +66,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
     'simple_history.middleware.HistoryRequestMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',  # add whitenoise
+    # 'whitenoise.middleware.WhiteNoiseMiddleware',  # add whitenoise
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -221,7 +221,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # # Heroku setting
 # # Serving the statics through Whitenoise in DigitalOcean
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage' 
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
