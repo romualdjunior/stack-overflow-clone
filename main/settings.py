@@ -1,7 +1,10 @@
 from pathlib import Path
 import os
 from django.conf import settings
+import mimetypes
 
+
+mimetypes.add_type("text/css", ".css", True)
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -12,11 +15,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-=dei9kx=^q))zm#z-(_cwdii75e-4bsf5_7suo9ll&besz088u'
 # from django.conf import settings
 settings.configure()
-# SECURITY WARNING: don't run with debug turned on in production!
+# development
+# DEBUG = True
+
+# production
 DEBUG = False
 
-ALLOWED_HOSTS = ["stackoverflow.ondigitalocean.app",
-                 "stackoverflow-app-9tx73.ondigitalocean.app"]
+# development
+# ALLOWED_HOSTS = []
+
+# production
+ALLOWED_HOSTS = ["stackoverflow-app-9tx73.ondigitalocean.app"]
 
 STATICFILES_STORAGE = "django.contrib.staticfiles.storage.ManifestStaticFilesStorage"
 

@@ -20,8 +20,8 @@ from django.conf import settings
 from qa import views as qa_views
 # import debug_toolbar
 
-handler404 = qa_views.handler404
-handler500 = qa_views.handler500
+# handler404 = qa_views.handler404
+# handler500 = qa_views.handler500
 
 urlpatterns = [
     path('admin/', admin.site.urls),
