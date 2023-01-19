@@ -205,10 +205,10 @@ USE_TZ = True
 # MY SETTINGS FOR LOGIN.
 LOGIN_URL = 'users:login_request'
 
-# STATICFILES_DIRS = [
-#     os.path.join(BASE_DIR, 'static'),
-#     os.path.join(BASE_DIR, 'media'),
-# ]
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, 'media'),
+]
 
 # BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
