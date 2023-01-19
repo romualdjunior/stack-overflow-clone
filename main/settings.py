@@ -233,7 +233,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # # Serving the statics through Whitenoise in DigitalOcean
 # STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-# DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Martor Configuration
 MARTOR_THEME = 'bootstrap'  # semantic
