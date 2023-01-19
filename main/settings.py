@@ -27,7 +27,7 @@ DEBUG = False
 # production
 ALLOWED_HOSTS = ["stackoverflow-app-9tx73.ondigitalocean.app"]
 
-STATICFILES_STORAGE = "django.contrib.staticfiles.storage.ManifestStaticFilesStorage"
+STATICFILES_STORAGE = "django.contrib.staticfiles.storage.StaticFilesStorage"
 
 
 # Application definition
